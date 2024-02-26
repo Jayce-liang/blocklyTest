@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blockly Modern Theme Test</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background: #eceff1;
+        margin: 0;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- Load Blockly core -->
+    <script src="https://unpkg.com/blockly/blockly_compressed.js"></script>
+    <!-- Load the default blocks -->
+    <script src="https://unpkg.com/blockly/blocks_compressed.js"></script>
+    <!-- Load a generator -->
+    <script src="https://unpkg.com/blockly/javascript_compressed.js"></script>
+    <!-- Load a message file -->
+    <script src="https://unpkg.com/blockly/msg/en.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
